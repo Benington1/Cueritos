@@ -10,10 +10,9 @@ public class Bebidas extends Restaurante {
             bebidasSinAlcohol[4] = "Jamaica";
 
             System.out.println(bebidasSinAlcohol[3]);
-        
+            Bebidas coca = new Bebidas();
+            coca.comensal();
     }    
-    
-
          @Override
         void comensal() {
             System.out.println("aaaaaaahhhhhh Refrescante");
